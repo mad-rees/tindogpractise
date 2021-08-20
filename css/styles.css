@@ -1,0 +1,165 @@
+/* Item Selectors */
+
+h1, h2, h3, h4, h5, h6, body {
+  font-family: 'Montserrat', sans-serif;
+}
+h1 {
+  
+  font-size: 3.5rem;
+  line-height: 1.2;
+  font-weight: 900;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+
+/* Class Selectors */
+
+.container-fluid {
+  padding: 3% 12%;
+}
+
+/* Navbar Class Edits */
+.navbar {
+  padding-bottom: 4.5rem;
+  padding-left: 0px;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+  /* font-weight: bold; */
+}
+
+.nav-item {
+  padding: 0px 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat';
+  font-weight: 100;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 2% 0%;
+}
+
+/* Title Image */
+.title-image {
+  width: 60%;
+  transform: rotate(10deg);
+  position: absolute;
+}
+
+/* Value Stack */
+.value-stack-icon {
+  color: #ef8172;
+  font-size: 5rem;
+  margin: 0.5rem 0px;
+  text-align: center;
+}
+
+.value-stack-icon:hover {
+  color: #ff4c68;
+}
+
+.value-stack-text {
+  text-align: center;
+  font-weight: 200;
+}
+
+/* Testimonials */
+.testimonial-image {
+  
+  border-radius: 100%;
+  margin: 20px;
+  width: 10%;
+}
+
+/* Press */
+.press-image {
+  width: 15%;
+  margin: 20px 50px 20px;
+}
+
+/* Carousel */
+.carousel-item {
+  padding: 7% 15%;
+}
+/* Pricing */
+.pricing-column {
+  padding: 3% 2%;
+}
+/* Footer */
+.footer-icons {
+  padding: 10px 5px 10px;
+}
+
+/* ID Selectors */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+#features {
+  margin: 0px 0px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: white;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+
+}
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 140px;
+}
+#footer {
+  text-align: center;
+  padding: 2%
+}
+
+
+@media (max-width: 767px){
+  h1 {
+    font-size: 3rem;
+  }
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    padding: 5% 0px 0px 0px;
+    width: 80%;
+    max-width: 400px;
+    transform: rotate(0);
+  }
+
+}
